@@ -10,7 +10,7 @@ return (
 
 <div className="mt-5"> <img height="270px" width="470px"
 
-src="https://bakestudio.in/assets/images/cart/empty-cart.gif" />
+src="https://bakestudio.in/assets/images/cart/empty-cart.gif" alt="cart empty" />
 
 </div>
 

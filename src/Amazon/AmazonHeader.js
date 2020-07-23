@@ -168,26 +168,29 @@ const AmazonHeader = () => {
             
             <div className="shadow p-2 mb-4 bg-light rounded">
                 <div className=" row mt-5 py-4">
-                <div class="col-sm-1">
-                  <div class="row">
-                    <div className="col">
-                    <i class="material-icons" style={{fontSize:'36px'}}>location_on </i> 
+                <div className="col-sm-1">
+                  <div className="row">
+                    <div className="col-lg-6">
+                    <i className="material-icons" style={{fontSize:'36px'}}>location_on </i> 
                     </div>
-                    <div className="col text-dark" >
+                    <div className="col-lg-6 text-dark" >
                    
                     <Link to="/delivery"><b className="text-dark">Delivery to India</b></Link>
                   
                     </div>
                     </div>
-                   </div> &nbsp;&nbsp;&nbsp;&nbsp;
+                   </div>
+                   &nbsp;&nbsp;&nbsp;&nbsp;
                     {/*<div class="col-sm-2">  <Link to="/mobile"><b class="text-dark">Mobiles</b></Link></div>*/}
-                    <div class="col-sm-1"><Link to="/mobile" onClick={()=>mobiles()}><b className="text-dark">Mobiles</b></Link></div>
-                    <div class="col-sm-1"><Link to="/cloth" onClick={()=>dress()}><b className="text-dark">Dress</b></Link></div>
+                    <div className="col-sm-1"><Link to="/mobile" onClick={()=>mobiles()}><b className="text-dark">Mobiles</b></Link></div>
+                    <div className="col-sm-1"><Link to="/cloth" onClick={()=>dress()}><b className="text-dark">Dress</b></Link></div>
+                    
                     <Route path="/delivery" exact strict component={DeliveryLocation}></Route>
                    <Route path="/mobile" exact strict component={Mobiles}></Route>
                    <Route path="/cloth" exact strict component={Dress}></Route>
                     <Route path="/checkout" exact  strict component={CheckOut}></Route>
            <Route path="/cart" exact strict component ={Cart}></Route>
+           
                 </div>
             </div>
            

@@ -5,8 +5,8 @@ import Home from './Amazon/Home'
 import Login from './Amazon/Login'
 import CreateAccount from './Amazon/CreateAccount'
 import Main from './components/Main'
-import DeliveryLocation from './Amazon/DeliveryLocation'
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+
+import { BrowserRouter as Router,  Route } from "react-router-dom";
 const App = () => {
 
   return (
@@ -27,7 +27,7 @@ const App = () => {
       </Router>
 
       <AmazonFooter></AmazonFooter>
-      {/*<DeliveryLocation/>*/}
+      
 
     </div>
   );

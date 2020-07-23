@@ -12,13 +12,13 @@ const Home = () => {
                    {/*<span style={{}}>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery <a href="#">Click here to go to amazon.in</a></span>*/}
                
     </div>
-    <div className="carousel-caption d-none d-md-block text-center"><p style={{backgroundColor:'white',width:'100%',height:'40px',color:'black'}}>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery <a href="#">Click here to go to amazon.in</a></p></div>
+    <div className="carousel-caption d-none d-md-block text-center"><p style={{backgroundColor:'white',width:'100%',height:'40px',color:'black'}}>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery <div href="#">Click here to go to amazon.in</div></p></div>
     {/* <h1>Hello</h1>*/}
                     </div>
                     <div className="carousel-item">
                     <div style={{backgroundImage:"url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/April/Hero/Hero_Currency_EN_1X._CB466692681_.jpg)",width:"100%",height:"400px"}}>
                    {/* <span class="color:black">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery <a href="#">Click here to go to amazon.in</a></span>*/}
-                   <div className="carousel-caption d-none d-md-block text-center"><p  style={{backgroundColor:'white',width:'100%',height:'40px',color:'black'}}>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery <a href="#">Click here to go to amazon.in</a></p></div>
+                   <div className="carousel-caption d-none d-md-block text-center"><p  style={{backgroundColor:'white',width:'100%',height:'40px',color:'black'}}>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery <div href="#">Click here to go to amazon.in</div></p></div>
     </div>
 {/*<h1>Hello</h1>*/}
                     </div>

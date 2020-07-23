@@ -36,17 +36,17 @@ return (
 
 <div className="col-sm-5">
 
-<div className="row"><img src={productImg} height='380' width='200' /></div>
+<div className="row"><img src={productImg} height='380' width='200' alt="phone" /></div>
 
 <br /><br /><br /><br />
 
 <div className="card-body">
 
-<button onClick={() => addMitem(index)} className="btn btn-warning btn-center" disabled={incart == "true" ? true : false}><i className="fa fa-shopping-cart"></i>Add to cart</button>
+<button onClick={() => addMitem(index)} className="btn btn-warning btn-center" disabled={incart === "true" ? true : false}><i className="fa fa-shopping-cart"></i>Add to cart</button>
 
 {/* <button className="card-link btn-lg btn-warning text-white"><i class="fa fa-shopping-cart"></i>&nbsp;ADD TO CART</button>*/}
 
-<button className="card-link btn btn-danger text-white" >BUY NOW</button>
+<button className="card-link btn btn-danger text-white ml-4" >BUY NOW</button>
 
 </div>
 

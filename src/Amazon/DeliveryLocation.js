@@ -29,8 +29,8 @@ const DeliveryLocation = () => {
                                 
                             </div>
                             <p className="ml-3 mt-3" style={{ textAlign: 'center' }}>or </p>
-                            <label for="sel1"></label>
-                            <select class="form-control" id="sel1">
+                            <label htmlFor="sel1"></label>
+                            <select className="form-control" id="sel1">
                                 <option>India</option>
                                 <option>Australia</option>
                                 <option>Germany</option>

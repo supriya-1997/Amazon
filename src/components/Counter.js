@@ -14,7 +14,8 @@ return (
 
 {<button onClick={() => decrmentCounter(index)}
 
-disabled={quantity==1?true:false} className="btn btn-primary m-2">-</button>}
+disabled={quantity===1?true:false}  className="btn btn-primary m-2">-</button>}
+
 
 <div className=" card p-2 text-center" style={{
 

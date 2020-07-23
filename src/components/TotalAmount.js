@@ -24,7 +24,7 @@ return (
 
 <Link to="/checkout">
 
-<button disabled={totalAmount==0?true:false} className="btn btn-primary mt-3"onClick={()=>reset()}><b>CheckOut</b></button></Link>
+<button disabled={totalAmount===0?true:false} className="btn btn-primary mt-3"onClick={()=>reset()}><b>CheckOut</b></button></Link>
 
 </>
 

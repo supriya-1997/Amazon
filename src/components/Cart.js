@@ -33,7 +33,7 @@ return (
 
 <div className=" container " style={{ border: '1px solid white' }}>
 
-{(cart.length == 0) ? <EmptyCart /> : (
+{(cart.length === 0) ? <EmptyCart /> : (
 
 <>
 

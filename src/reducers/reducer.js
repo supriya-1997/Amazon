@@ -97,7 +97,7 @@ const reducer = (state, action) => {
     
     case 'MOBILES': {
     
-    const Mobiles = products.filter(product => product.category == "mobiles")
+    const Mobiles = products.filter(product => product.category === "mobiles")
     
     return {
     
@@ -110,7 +110,7 @@ const reducer = (state, action) => {
     }
     case 'DRESS': {
     
-        const Dress = products.filter(product => product.category == "dress")
+        const Dress = products.filter(product => product.category === "dress")
         
         return {
         

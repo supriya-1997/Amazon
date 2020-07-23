@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Login = () => {
 
     return (
@@ -35,7 +35,7 @@ const Login = () => {
                 leXa4WLzfPXyyVz7fz1zVXF//VXW/g2RPkm9/D+FWtmflouNrj+8Ny/m9zqyrtPW9u/r0s1qucpql19uqffOn998xCyXiZUzXCzIRK+gqI76TffE8Uobda
                 7vG7iqUTGL+stgzfEy232CSbWmra5qNufpTezeIIjZq7Si0zvUftR3cVnzKer9xDVPJ6aLm9g3j72U3FV4yfHh63J9oudVru/eV3RuOX9Db3D1c78kmsj
                 Y/devl/ftjUe37ie3VeAWgqrutere/nt78wVx7HePP0NF8uX9fr9cNy+fafPSUkCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCII
-                gCIIgCIIgCIIgCIL4Tv4Hu9e8exYznDIAAAAASUVORK5CYII=" style={{float:'none',marginLeft:'500px' }} height="70" width="100" />
+                gCIIgCIIgCIIgCIL4Tv4Hu9e8exYznDIAAAAASUVORK5CYII=" style={{float:'none',marginLeft:'500px' }} height="70" width="100"alt="amazon" />
                 <div className="card" style={{ width: '420px', margin:'0 auto',float:'none' }}>
                     <div className="card-body">
                                 <h3 className="ml-3">Sign-In</h3>

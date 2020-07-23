@@ -14,7 +14,7 @@ return (
 
 <div className="mt-5"> <img height="350px" width="450px"
 
-src="https://i.pinimg.com/originals/51/ce/e6/51cee67564790d275cac21c4b754d8bb.gif" />
+src="https://i.pinimg.com/originals/51/ce/e6/51cee67564790d275cac21c4b754d8bb.gif" alt="order placed" />
 
 </div>
 

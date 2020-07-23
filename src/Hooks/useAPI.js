@@ -24,15 +24,11 @@ Dress:[]
 
 const [state, dispatch] = useReducer(reducer, INIT_STATE);
 
-const { products, totalAmount, cart, Mobiles,Dress} = state;
+const {  cart} = state;
 
 useEffect((prevState) => {
 
-fetch('https://jsonblob.com/api/63fdcfe9-bd21-11ea-a129-63a5de9d01b3').
-
-then(response => response.json()).
-
-then(json => {
+fetch('https://jsonblob.com/api/63fdcfe9-bd21-11ea-a129-63a5de9d01b3').then(response => response.json()).then(json => {
 
 dispatch({
 
